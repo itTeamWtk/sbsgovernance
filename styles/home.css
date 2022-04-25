@@ -1,0 +1,228 @@
+body {
+  font-family: 'Montserrat';
+}
+
+.pFontSize {
+  font-size: 8px;
+}
+
+#showcase-img { background-image: url("../img/bg_sbs.jpg");}
+
+.bgBlue { background-color: #0A2144; }
+
+.lh-17 { line-height: 1.7;}
+.lh-25 { line-height: 2.5}
+
+.text-left { text-align: left !important; }
+
+.btn-lightblue { background-color: #23A6F0; }
+
+.br-18 { border-radius: 18px !important; }
+
+.bg-cover { background-size: cover !important; }
+
+.mh-100vh { min-height: 100vh; }
+
+.scale-15 { transform: scale(1.5); }
+
+#services-img { background-image: url("../img/servicesPhotos.png"); }
+
+#btnMore { 
+  color: #00A0C1;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+i:after{
+  display: inline-block;
+  padding: 8px;
+}
+
+#jck-img {
+  position: absolute;
+  width: 400px;
+  height: 280px;
+  left: 800px;
+ }
+
+.text-right { text-align: right; }
+
+.pl-5vw { padding-left: 5vw; }
+
+.footer{
+  text-align: center;
+  font-size: 12px;
+  }
+
+.img-footer {
+  width: 45px;
+}
+
+.bg-primary {
+  color: white;
+}
+
+.mt-5em { margin-top: 5em; }
+
+.ml-4vw { margin-left: 4vw; }
+.mt--5em {margin-top: -5em; }
+
+/* Img quem somos */
+#predio-opaco-img { background-image: url("../img/predio-opaco.png");
+  background-position: center;
+}
+
+.form {
+  border: none;
+  border-bottom: 1px solid black;
+  float:left;
+  background-color: #F5F5F5;
+  outline: none;
+}
+
+.grey {
+  background-color: #F5F5F5;
+}
+
+.scale1 { 
+  transform: scale(0.9); 
+}
+
+.scale2 { 
+  transform: scale(1.4); 
+}
+
+.scale3 {
+  transform: scale(1.5); 
+}
+
+.scale08 { 
+  transform: scale(0.8); 
+}
+
+.scale05 { 
+  transform: scale(0.5); 
+}
+
+.d-flex-web { display: flex; }
+
+.text-footer a {
+  color:white; 
+  text-decoration: none;
+}
+
+@media (max-width: 767px){
+  .text-footer a {
+    color: #000 !important;
+  }
+
+  .bg-img-card, .bg-img-card2, .bg-img-card3  { 
+    background-size: unset !important; 
+    margin: 8vh 0;
+  }
+  .d-none-mobile { 
+    display: none !important;
+  }
+
+  .sm-ml-4 { margin-left: 2rem !important; }
+
+  .btn-mobile { 
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.btGreen {
+  border: none;
+  background-color: rgb(3, 82, 55);
+  border-radius: 3px;
+  color: white;
+  width: 20;
+}
+
+.btBlue {
+  border: none;
+  background-color: #28BEDD;
+  border-radius: 3px;
+  color: white;
+}
+
+.btn-lugar{
+  margin: 45px 180px;
+}
+
+.h2Lugar {
+  margin: 0px 0px 0px 5px;
+}
+
+.height-fit-content { height: fit-content; }
+
+.bg-img-card { background-image: url(../img/covernoticias1.png); background-size: contain; }
+
+.bg-img-card2 { background-image: url(../img/covernoticias2.png); background-size: contain; }
+
+.bg-img-card3 { background-image: url(../img/covernoticias3.png); background-size: contain; }
+
+.br-bottom-20 { border-radius: 0 0 20px 20px; }
+
+.mh-70vh { min-height: 70vh; }
+
+.border-none { border: none }
+
+.br-40 { border-radius: 40px; }
+.br-20 { border-radius: 20px; }
+
+.lh-2 { line-height: 2; }
+
+/* .container-map{
+  text-align: -webkit-center;
+} */
+
+.btnNavbarColor {
+  color: #000;
+}
+
+.card-p1{
+  padding: 3.25rem!important;
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%; 
+  /* height: 0;
+  overflow: hidden; */
+}
+
+.google-maps iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 65% !important;
+}
+
+.wi-50 {
+  width: 22%!important;
+}
+
+.cardzada{
+ width: 29rem;
+}
+
+.tituloCard{
+font-size: x-large;
+}
+
+.textoMenorCard{
+font-size: xx-small;
+}
+
+.textoMedioCard{
+font-size: small
+}

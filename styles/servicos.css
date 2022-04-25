@@ -1,0 +1,156 @@
+body {
+  font-family: 'Montserrat';
+}
+
+#predio-opaco-img { background-image: url("../img/predio-opaco.png");
+  background-position: center;
+}
+.bg-cover { background-size: cover !important; }
+
+.bgBlue { background-color: #0A2144; }
+
+.bg-diagonal { background: linear-gradient(to top left, #0A2144 55%, #FFF 85% ); }
+.bg-pink { background-color: #DD3654; }
+.text-justify { text-align: justify !important; }
+.br-2em { border-radius: 2em; }
+.border-pink { border-color: #DD3654; }
+.dark-box{
+position: absolute;
+width: 2008px;
+height: 519px;
+left: -30px;
+top: 6422.54px;
+background: #FFFFFF;
+box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.2);
+}
+
+.bg-header { background-image: url(../imagens/teste.png) }
+.mh-55vh { min-height: 55vh !important; }
+.bg-grey { background: linear-gradient(to top, #fff 55%, #e5e5e5 100%); }
+.scale { transform: scale(1.1); }
+.bgblue {
+    background-color:#0A2144 !important;
+  }
+
+  .card-body{
+ flex: 1 1 auto;
+}
+
+.bgblueText{
+  background-color:#0A2144 
+}
+
+.textBlue{
+color: #0A2144;
+}
+
+.lh-2 { line-height: 2; }
+
+.border-none { border: none; }
+
+.boxShadow {
+  box-shadow: 10px 5px 5px black;
+}
+
+.boxShadow2 {
+  box-shadow: 3px 3px 8px black;
+}
+
+.scale08 { 
+  transform: scale(0.8); 
+}
+
+.btn-lugar{
+  margin: 45px 180px;
+}
+
+.grey {
+  background-color: #F5F5F5;
+}
+
+.btnSize {
+  width: 292px;
+  height: 70px;
+}
+
+.form {
+  border: none;
+  border-bottom: 1px solid black;
+  float:left;
+  background-color: #F5F5F5;
+  outline: none;
+}
+
+.bg-img-card { background-image: url(../img/covernoticias1.png); background-size: contain; }
+
+.bg-img-card2 { background-image: url(../img/covernoticias2.png); background-size: contain; }
+
+.bg-img-card3 { background-image: url(../img/covernoticias3.png); background-size: contain; }
+
+.br-bottom-20 { border-radius: 0 0 20px 20px; }
+
+.mh-70vh { min-height: 70vh; }
+
+.border-none { border: none }
+
+.br-40 { border-radius: 40px; }
+
+.lh-2 { line-height: 2; }
+
+.footer{
+  text-align: center;
+  font-size: 12px;
+}
+
+.img-footer {
+  width: 45px;
+}
+
+.btGreen {
+  border: none;
+  background-color: rgb(3, 82, 55);
+  border-radius: 3px;
+  color: white;
+  width: 20;
+}
+
+.btBlue {
+  border: none;
+  background-color: #28BEDD;
+  border-radius: 3px;
+  color: white;
+}
+
+.fundoRed{
+  background-image: url("../img/fundoVermelho.png");
+  background-size: contain ;
+}
+
+.fundoBlack{
+  background-image: url("../img/servicesPhotos.png");
+}
+
+.logoFundoBlack {
+  width: 550px;
+}
+
+.cardzada{
+  width: 29rem;
+  
+ }
+ 
+ .tituloCard{
+ font-size: x-large;
+ }
+ 
+ .textoMenorCard{
+ font-size: xx-small;
+ }
+ 
+ .textoMedioCard{
+ font-size: small
+ }
+
+.corrigir-card{
+  --bs-gutter-x: -1.5rem;
+}

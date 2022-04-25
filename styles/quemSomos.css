@@ -1,0 +1,136 @@
+.bgblue {
+  background-color:#0A2144 !important;
+}
+
+.imgBackground {
+  background-image: url("img/predio-opaco.png");
+  height: "100%";
+  
+}
+.bggrey {
+  background-color: grey;
+}
+
+.bgblueText {
+  color: deepskyblue;
+}
+
+.bgorange {
+  color: #FFA62B;
+}
+
+.mh-40 { 
+  min-height: 40vh !important; 
+}
+
+.bg-cover { 
+  background-size: cover; 
+}
+
+.containersbs {
+  border-radius: 60px;
+}
+
+.buttonSaibaMais {
+  border: #DD3654;
+  background-color: #DD3654;
+  width: 187.74px;
+  height: 46px;
+  border-radius: 28px;
+  background: #DD3654;
+}
+
+.scale1 { transform: scale(0.1); }
+
+.br-20 { border-radius: 20px; }
+
+input {
+  width: 100%;
+}
+
+.form {
+  border: none;
+  border-bottom: 1px solid black;
+  float:left;
+  background-color: #F5F5F5;
+  outline: none;
+}
+
+.grey {
+  background-color: #F5F5F5;
+}
+
+.scale2 { 
+  transform: scale(1.1); 
+}
+
+.buttonEnviar {
+  position: absolute;
+width: 120px;
+height: 40px;
+background: #23A6F0;
+border-radius: 10px;
+border: #23A6F0;
+}
+
+.height-fit-content { height: fit-content; }
+
+.bg-img-card { background-image: url(../img/covernoticias1.png); background-size: contain; }
+
+.bg-img-card2 { background-image: url(../img/covernoticias2.png); background-size: contain; }
+
+.bg-img-card3 { background-image: url(../img/covernoticias3.png); background-size: contain; }
+
+.br-bottom-20 { border-radius: 0 0 20px 20px; }
+
+.mh-70vh { min-height: 70vh; }
+
+.border-none { border: none }
+
+.br-40 { border-radius: 40px; }
+
+.lh-2 { line-height: 2; }
+
+.footer {
+  text-align: center;
+  font-size: 12px;
+}
+
+.img-footer {
+  width: 45px;
+}
+
+.card-p1 {
+  padding: 3.25rem!important;
+}
+
+.cardzada{
+  width: 29rem;
+ }
+ 
+ .tituloCard{
+ font-size: x-large;
+ }
+ 
+ .textoMenorCard{
+ font-size: xx-small;
+ }
+ 
+ .textoMedioCard{
+ font-size: small
+ }
+
+ .arrumar-map{
+  width: 1340px;
+    height: 730px;
+    text-align: -webkit-center;
+    
+  }
+
+  .arrumar-botao{
+    width: 305px;
+  }
+
+  .grey-computer {
+    background-color: #6c757d4d;
+}
